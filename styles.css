@@ -234,11 +234,11 @@ input {
     border-radius: 10px;
     border: 1px solid #D3D7DC;
     }
-.Seventh{
+.seventh{
     margin-left: 100px; 
 }
 
-.Seventh > input {
+.seventh > input {
     width: 588px;
     height: 92px;
     padding-top: 0px;
