@@ -336,7 +336,7 @@ hr{
   
   
   
-     .header{
+     header{
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -357,13 +357,14 @@ hr{
         flex-wrap: wrap;
         width: auto;
      }
-     .maintain {
+     /* .maintain {
         border: 0px solid ;
         background-color: #484e53;
         display: flex;
         flex-direction: row;
         color: white;
-    }
+        
+    } */
      
           }
      
