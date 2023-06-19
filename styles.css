@@ -244,9 +244,8 @@ input {
     padding-top: 0px;
     padding-left: 0px;
     text-align:left;
-    
-
 }
+
 hr{
     width: 500.992;
      border-left-width: 0px;
@@ -300,5 +299,14 @@ hr{
         align-items: center;
         flex-wrap: wrap;
     }
-    
+    footer{
+        background-color: #6C757D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        height: auto;
+        flex-wrap: wrap;
+        width: auto;
+    }
  }
