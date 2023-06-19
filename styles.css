@@ -132,17 +132,6 @@ h1{
     padding-right: 100px;
     gap: 30px;
 }
-/* .grave{
-    margin-left: 43px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    height: 32px;
-    width: 32px;
-    
-} */
-
-
-
 #search{
     margin-left: 175px;
     }
@@ -152,20 +141,11 @@ h1{
     margin-left: 24px;
     margin-right: 24px;
     }
-/* .john{
-    padding: 12px;
-    border: 0px solid black;
-    border-radius: 100px;
-    background-color: #28A745;
-    margin: 8px;
-    color: white;
-    } */
 #white{
     background-color: white;
     margin-top: 25px;
     border-radius: 10px;
     height: 700px;
-
 }
 #next1,#next2{
     border-radius: 10px;
@@ -356,15 +336,6 @@ hr{
         height: auto;
         flex-wrap: wrap;
         width: auto;
-     }
-     /* .maintain {
-        border: 0px solid ;
-        background-color: #484e53;
-        display: flex;
-        flex-direction: row;
-        color: white;
-        
-    } */
-     
+     }  
           }
      
