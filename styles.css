@@ -132,6 +132,17 @@ h1{
     padding-right: 100px;
     gap: 30px;
 }
+/* .grave{
+    margin-left: 43px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 32px;
+    width: 32px;
+    
+} */
+
+
+
 #search{
     margin-left: 175px;
     }
@@ -146,6 +157,7 @@ h1{
     margin-top: 25px;
     border-radius: 10px;
     height: 700px;
+
 }
 #next1,#next2{
     border-radius: 10px;
@@ -312,10 +324,6 @@ hr{
   @media 
   only screen and (max-width: 760px),
   (min-device-width: 450px) and (max-device-width: 1024px)  {
-  
-  
-  
-  
      header{
         display: flex;
         flex-direction: row;
@@ -323,7 +331,6 @@ hr{
         height: auto;
         background-color: #343A40;
         color: white;
-        /* justify-content: space-between; */
         align-items: center;
         flex-wrap: wrap;
        }
@@ -336,6 +343,6 @@ hr{
         height: auto;
         flex-wrap: wrap;
         width: auto;
-     }  
+     }
           }
      
