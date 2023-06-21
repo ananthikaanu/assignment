@@ -340,6 +340,10 @@ hr{
         align-items: center;
         flex-wrap: wrap;
        }
+       #white{
+        display: flex;
+        flex-direction: column;
+       }
        footer{
         background-color: #6C757D;
         display: flex;
