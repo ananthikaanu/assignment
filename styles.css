@@ -348,7 +348,7 @@ hr{
         color: white;
         height: auto;
         flex-wrap: wrap;
-        width: auto;
+        width: 100%;
      }
           }
      
