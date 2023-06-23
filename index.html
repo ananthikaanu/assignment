@@ -1,109 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Payment</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="styles.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Payment</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
-    <header>
-        <div id="header-one">
-            <img src="assets/logo.svg" class="logo" alt="grave site logo">
-            <h2>Grave Sites Management</h2>
-        </div>
-        <div id="header-two">
-              <div class="maintain">
-                <img  src="assets/maintain.svg"  alt="maintain icon">
-                <h1>Maintain</h1>
-                <img src="assets/vector.svg" class="arrow-main" alt="dropdown icon"> 
-              </div>
-              <div class="header-img">
-                <img src="assets/payment.svg"  alt="payments icon">
-                <h1>Payments</h1>
-              </div>
-              <div class="header-img">
-                <img src="assets/reports.svg"  alt="reports icon">
-                <h1>Reports</h1>
-              </div>
-        </div>
-        <div id="header-three">
-              <img src="assets/search.svg" class="header-img-two" alt="search icon">
-              <img src="assets/setup.svg" class="header-img-two" alt="settings icon">
-              <img src="assets/help.svg" class="header-img-two" alt="help icon">
-        </div>
-        <div class="main-sec">
-              <h3 class="logo-name">JS</h3>
-        <div class="header-for">
-              <h1 class="end-name-1">John Snow</h1>
-              <h1 class="end-name-2">Municipality Officer</h1>
-        </div>
-             <img src="assets/vector.svg" class="arrow-main" alt="dropdown icon">
-        </div>
-      </div>
-    </header>
-         <div class="fifth">
-         <div class="main" >
-          <div>
-            <h1 id="name">Create Payment</h1>
-            <ul class="list">
-              <li>Grave Site</li>
-              <li id="grave"><img src="assets/grave.svg"> 01-1001-05.0</li> 
-              <li>Owner</li>
-              <li id="owner"><img src="assets/owner.svg">Lorraine & Russ Stewart</li>
-              <li>Person Buried</li>
-              <li id="Buried"><img src="assets/person.svg">Edgar Steward</li>
-             </ul> 
-         </div>
-         </div>
-        <div id="fourth">
-         <div id="white">
-            <h4>Payment Details</h4>
-            <div class="sixth">
-                <div >
-                    <p>Receipt  Number</p>
-                <input placeholder="1234">
-                    <p>Amount</p>
-                <input>
-                    <p>Payment Type</p>
-                    <select name="select" id="select">
-                        <option value="select">Select</option>
-                    </select>
-                </div>
-              <div class="input-container">
-                <p>Transcation ID</p>
-              <input>
-                <p>Date Paid</p>
-                <i class="fas fa-calendar-alt"></i>
-              <input placeholder="01/28/2023">
-                <p>Payor</p>
-              <input placeholder="Lorraine & Russ Steward">
-              </div>
-            </div>
-            <div class="seventh">
-              <p>Description</p>
-              <input>
-            <hr>
-            </div>
-            <div>
-              <button id="next1">Submit</button>
-              <button id="next2">Cancel</button>
-              <div id="plus"><img id="plus-1" src="assets/add.svg" alt="plus icon">   Add another payment</div>
-            </div>
-         </div>
-        </div>
+  <div class="header-one">
+  <div>
+      <img src="assets/logo.svg" class="logo" alt="grave site logo">
+      <h2>Grave Sites Management</h2>
+  </div>
+  <div>
+  <div id="maintain">
+      <img  src="assets/maintain.svg"  alt="maintain icon" id="maintain-1"> 
+      <h1 style="font-weight: normal;">Maintain &nbsp;</h1>
+      <img src="assets/vector.svg" class="arrow-main" alt="dropdown icon" id="down-arrow"> 
+  </div>
+      <img src="assets/payment.svg"  alt="payments icon" class="payments-1">
+      <h1 style="font-weight: normal;">Payments</h1>
+      <img src="assets/reports.svg"  alt="reports icon" class="reports-1">
+      <h1 style="font-weight: normal;">Reports</h1>
+  </div>
+  <div class="header-three">
+      <img src="assets/search.svg" class="search-1" alt="search icon">
+      <img src="assets/setup.svg" class="setup-1" alt="settings icon">
+      <img src="assets/help.svg" class="help-1" alt="help icon">
+      <h1 class="logo-name" style="font-size: 14px; font-weight: 700;">JS</h1>
+  <div class="header-for">
+        <p class="end-name-1">John Snow</p>
+        <p class="end-name-2">Municipality Officer &nbsp;</p>
+  </div>
+       <img src="assets/vector.svg" class="arrow-main" alt="dropdown icon">
+  </div>
+  </div>
+  <div class="anan">
+  <div class="fifth">
+  <div class="main" >
+    <h1 id="name">Create Payment</h1>
+      <ul class="list">
+      <li>Grave Site</li>
+      <li id="grave"><img src="assets/grave.svg"> 01-1001-05.0</li>
+      <li>Owner</li>
+      <li id="owner"><img src="assets/owner.svg">Lorraine & Russ Stewart</li>
+      <li>Person Buried</li>
+      <li id="Buried"><img src="assets/person.svg">Edgar Steward</li>
+      </ul>
+  </div>
+  </div>
+  <div id="fourth">
+  <div id="white">
+      <h4>Payment Details</h4>
+  <div class="sixth">
+  <div >
+      <p>Receipt  Number</p>
+      <input placeholder="1234">
+      <p>Amount</p>
+      <input>
+      <p>Payment Type</p>
+      <select name="select" id="select">
+      <option value="select">Select</option>
+      </select>
+  </div>
+      <div class="input-container">
+      <p>Transaction ID</p>
+      <input>
+      <p>Date Paid</p>
+      <i class="fas fa-calendar-alt"></i>
+      <input placeholder="01/28/2023">
+       <p>Payor</p>
+      <input placeholder="Lorraine & Russ Steward">
+    </div>
+  </div>
+    <div class="seventh">
+    <p>Description</p>
+    <input>
+   <hr>
+  </div>
+  <div class="btn">
+  <div class="btns">
+     <button id="next1">Submit</button>
+     <button id="next2">Cancel</button>
+  </div>
+  <div id="plus"><img id="plus-1" src="assets/add.svg" alt="plus icon">   Add another payment</div>
+  </div>
+  </div>
+  </div>
+  </div>
 <footer>
-      <div id="foot">
-          <p>© 2023 Company</p>
-      </div>
-      <div id="foot-content">
-          <p class="content-1">About</p>
-          <p class="content-1">Terms of Use</p>
-          <p class="content-1">Contact</p>
-      </div>
-     </footer>
+  <div id="foot">
+     <p>© 2023 Company</p>
+  </div>
+  <div id="foot-content">
+     <p class="content-1">About</p>
+     <p class="content-1">Terms of Use</p>
+     <p class="content-1">Contact</p>
+  </div>
+</footer>
 </body>
 </html>
